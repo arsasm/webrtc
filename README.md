@@ -17,7 +17,7 @@ isomorphic package for WebRTC
 ## install
 
 ```sh
-go get -u github.com/nobonobo/webrtc
+go get -u github.com/arsasm/webrtc
 ```
 
 ## usage
@@ -26,7 +26,7 @@ getUserMedia sample(gopherjs only)
 ```go
 package main
 
-import "github.com/nobonobo/webrtc"
+import "github.com/arsasm/webrtc"
 
 func main() {
 	stream, err := webrtc.GetUserMedia(webrtc.NewConstraints(true, true))
